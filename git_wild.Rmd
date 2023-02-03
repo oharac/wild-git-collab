@@ -38,8 +38,8 @@ sub_d<-diamonds %>%
 ### Both partners - delete this comment, then write some code here
 ### to plot, summarize, calculate something simple using the diamonds
 ### dataset.
-
-
+price_per_carat <- lm(price ~ carat, data = diamonds)
+price_per_carat$coefficients[2]
 ```
 
 ## STEP 11: And even more merge conflicts!
