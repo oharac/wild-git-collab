@@ -35,9 +35,8 @@ sub_d<-diamonds %>%
 ## STEP 7: Uh oh, merge conflicts!
 
 ```{r break-it-1}
-### Both partners - delete this comment, then write some code here
-### to plot, summarize, calculate something simple using the diamonds
-### dataset.
+sub_d2<-diamonds %>% 
+  filter(price>10000) # I only care about the good stuff
 
 
 ```
