@@ -40,6 +40,11 @@ sub_d<-diamonds %>%
 ### dataset.
 price_per_carat <- lm(price ~ carat, data = diamonds)
 price_per_carat$coefficients[2]
+
+sub_d2<-diamonds %>% 
+  filter(price>10000) # I only care about the good stuff
+
+
 ```
 
 ## STEP 11: And even more merge conflicts!
